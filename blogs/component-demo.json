@@ -1,0 +1,114 @@
+{
+  "title": "Component Test Demo",
+  "author": "Lucius",
+  "date": "2024-12-28",
+  "summary": "A demonstration of all available blog components and sections.",
+  "tags": ["Test", "Components", "Demo"],
+  "sections": [
+    { "type": "title", "content": "Test: title" },
+    { "type": "title", "content": "Understanding Sorting Algorithms" },
+
+    { "type": "title", "content": "Test: text" },
+    { "type": "text", "content": "Sorting is fundamental to computer science. Here's how it works..." },
+
+    { "type": "title", "content": "Test: component" },
+    {
+      "type": "component",
+      "name": "SortingVisualizer",
+      "props": { "algorithms": ["Bubble Sort", "Merge Sort", "Quick Sort"] }
+    },
+
+    { "type": "title", "content": "Test: markdown" },
+    {
+      "type": "markdown",
+      "content": "# Hello Markdown!\n\nThis is **bold**, *italic*, and `code`.\n\n- Bullet point 1\n- Bullet point 2\n\n```javascript\nfunction greet() {\n  console.log('Hello, Markdown!');\n}\n```"
+    },
+
+    { "type": "title", "content": "Test: code" },
+    {
+      "type": "code",
+      "language": "python",
+      "content": "def bubble_sort(arr):\n  for i in range(len(arr)):\n    for j in range(0, len(arr)-i-1):\n      if arr[j] > arr[j+1]:\n        arr[j], arr[j+1] = arr[j+1], arr[j]"
+    },
+
+    { "type": "title", "content": "Test: quote" },
+    { "type": "quote", "content": "Sorting algorithms are the backbone of efficient data processing." },
+
+    { "type": "title", "content": "Test: image" },
+    {
+      "type": "image",
+      "src": "https://example.com/neural-net-demo.png",
+      "alt": "Visual demo of a neural network in action",
+      "caption": "A sample neural network visualization."
+    },
+
+    { "type": "title", "content": "Test: embed" },
+    {
+      "type": "embed",
+      "service": "YouTube",
+      "src": "https://youtube.com/embed/example-id",
+      "alt": "Neural Network Demo Walkthrough",
+      "caption": "Watch the step-by-step process in action."
+    },
+
+    { "type": "title", "content": "Test: list" },
+    {
+      "type": "list",
+      "style": "unordered",
+      "items": [
+        "Define the purpose of your demo.",
+        "Choose accessible tools and libraries.",
+        "Simplify complex concepts visually."
+      ]
+    },
+
+    { "type": "title", "content": "Test: link" },
+    { "type": "link", "href": "https://openai.com/research", "text": "Explore cutting-edge AI research." },
+
+    { "type": "title", "content": "Test: callout" },
+    {
+      "type": "callout",
+      "style": "info",
+      "content": "Did you know? Neural networks are inspired by the way neurons fire in the brain, but they process information very differently!"
+    },
+
+    { "type": "title", "content": "Test: emoji" },
+    { "type": "emoji", "shortcode": ":rocket:" },
+
+    { "type": "title", "content": "Test: math" },
+    { "type": "math", "formula": "E = mc^2", "block": true },
+
+    { "type": "title", "content": "Test: table" },
+    {
+      "type": "table",
+      "headers": ["Feature", "Status"],
+      "rows": [
+        ["Tables", "✅"],
+        ["Emojis", "✅"],
+        ["Math", "🚀"]
+      ]
+    },
+
+    { "type": "title", "content": "Test: checklist" },
+    {
+      "type": "checklist",
+      "items": [
+        { "text": "Write the blog", "completed": true },
+        { "text": "Test the renderer", "completed": false }
+      ]
+    },
+
+    { "type": "title", "content": "Test: diagram" },
+    { "type": "diagram", "content": "graph TD; A-->B; A-->C; B-->D; C-->D;" },
+
+    { "type": "title", "content": "Test: canvas" },
+    {
+      "type": "canvas",
+      "name": "FractalTree",
+      "props": {
+        "iterations": 5,
+        "color": "#6a0dad"
+      }
+    }
+  ]
+}

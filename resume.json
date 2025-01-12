@@ -1,0 +1,152 @@
+{
+  "personal_info": {
+    "name": "Anthony P. DeLuca",
+    "email": "anthony@anthony-deluca.com",
+    "phone": "(631) 521-1346",
+    "website": "www.anthony-deluca.com",
+    "linkedin": "www.linkedin.com/in/AnthonyPDeLuca"
+  },
+  "summary": "Experienced Senior Developer with 10+ years of success delivering AI-driven solutions, secure systems, and scalable development. Skilled in full-stack development, machine learning, predictive analytics, and cutting-edge technologies. Passionate about tackling complex challenges, crafting meaningful solutions, and collaborating with innovative teams to advance technology, humanity, and AI through impactful work. Excited to contribute to projects that push boundaries, drive innovation, and deliver solutions that truly make a difference.",
+  "work_experience": [
+    {
+      "company": "Intelligent Product Solutions",
+      "role": "Senior Software Engineer",
+      "period": "Apr 2017 – Current",
+      "projects": [
+        {
+          "name": "Machine Learning Project Desktop App",
+          "technologies": ["TypeScript", "JavaScript", "RxJs", "Lodash", "Pixi", "React", "Node", "Electron", "node-gyp", "C", "C++"],
+          "description": "Led the design and development of a scalable desktop app for managing machine vision projects. Architected a custom visual component system using Pixi.js for canvas-based project editing with real-time undo/redo capabilities. Integrated C++ communication via a custom Node.js module, enabling real-time data manipulation and streamlined workflows."
+        },
+        {
+          "name": "Bubblegum – Machine Vision Grading System",
+          "technologies": ["Python", "OpenCV"],
+          "description": "Developed machine vision algorithms for automated grading of baseball cards, detecting edges, centering, and wear using OpenCV. Demonstrated proof-of-concept feasibility for image-based grading systems, integrating advanced library features for high-accuracy analysis."
+        },
+        {
+          "name": "RFID Surgical Table Interface",
+          "technologies": ["C", "TypeScript", "Socket.IO", "Express.js", "Node.js", "node-gyp"],
+          "description": "Created a custom C driver for RFID scanners with Node.js integration to enable real-time surgical instrument tracking. Implemented lightweight Express and Socket.IO communication layers to relay scan data dynamically. Delivered a robust UI for live grid-based tracking and demonstrated early-stage neural network capabilities for tag triangulation."
+        },
+        {
+          "name": "Smart Lighting Solution Connectivity Bridge",
+          "technologies": ["TypeScript", "Node.js", "Express.js", "MongoDB"],
+          "description": "Designed and developed an IoT smart lighting control system using Express.js and MongoDB. Implemented robust API functionality for device grouping, state management, and streamlined OTA firmware updates. Delivered key features that directly contributed to the product’s acquisition by Ring."
+        },
+        {
+          "name": "Smart Piano App and Service",
+          "technologies": ["Swift", "RxSwift", "Java", "STOMP protocol", "GStreamer", "AWS Kinesis"],
+          "description": "Overhauled GStreamer/Kinesis pipelines to eliminate a 90-minute streaming cap, enabling extended live performances for a high-profile smart piano system. Updated libraries and hardware integration for stable operation during concerts. Enhanced GStreamer pipelines with features like screen rotation and real-time audio/video sync. Migrated core Swift components to RxSwift for improved responsiveness and state management across multiple connections. Optimized a Java backend to support real-time performance messaging with the STOMP protocol."
+        },
+        {
+          "name": "Online Education Portal",
+          "technologies": ["JavaScript", "React", "Redux", "Node.js", "Express.js", "Redis"],
+          "description": "Developed front-end tools for a searchable K-12 curriculum database, including advanced filtering/sorting features to enhance educator efficiency. Implemented Redux for consistent state management and seamless global data flows. Integrated and customized an open-source PDF reader to enable in-platform annotation and highlighting. Optimized the portal for responsive performance across diverse screen sizes and devices."
+        },
+        {
+          "name": "Reverse Engineering for Software Activation",
+          "technologies": ["Reverse Engineering", "IDA Pro", "Ghidra"],
+          "description": "Reverse-engineered a business-critical application to reactivate expired licensing files, ensuring uninterrupted client operations. Preserved the client’s investment by restoring functionality after the original developer became unavailable. Demonstrated rapid mastery of reverse engineering techniques under high-stakes conditions."
+        },
+        {
+          "name": "Blood Donor Portal",
+          "technologies": ["React", "Typescript", "Node", "RxJs", "AWS Serverless", "Lambda", "API Gateway"],
+          "description": "Led the development and architecture of a scalable Blood Donor Portal. Designed and implemented a React-based UI for donors, ensuring an intuitive and seamless experience. Architected the AWS serverless backend (API Gateway, Lambda) to support dynamic requirements and automagically deploy portal instances for clients. Developed front-end project architecture and APIs, aligning UI and serverless logic for consistent performance. Built CI/CD pipelines for rapid, reliable deployment, maintaining full-stack alignment with evolving donor and business needs."
+        },
+        {
+          "name": "Security Alarm System",
+          "technologies": ["JavaScript", "C#", "ASP.NET MVC"],
+          "description": "Implemented a multi-step configuration wizard for an alarm system, modernizing the user setup process within a legacy codebase. Adapted existing pages/routing and overcame challenges of a secured jump server in a fragmented environment. Helping fellow developers integrate wizard steps, ensuring an on-time rollout of the new setup flow. Simplified end-user onboarding and mitigated complexity in the underlying legacy system."
+        },
+        {
+          "name": "Temperature Monitoring IoT Device",
+          "technologies": ["React Native", "JavaScript", "RxJs"],
+          "description": "Developed a cross-platform React Native app for real-time IoT temperature monitoring on iOS and Android. Built a reliable polling system for frequent temperature updates, ensuring accurate, up-to-date data. Optimized the device configuration UI for improved usability and performance. Published the iOS version to the App Store on an accelerated timeline."
+        },
+        {
+          "name": "Stock Analysis App",
+          "technologies": ["Python", "Flask", "Numpy", "Pandas"],
+          "description": "Designed and implemented backend tools for analyzing stock trading patterns, capturing real-time open/close prices and volume data. Built an automated pipeline to fetch large lists of tickers, parse metrics, and push data to a Python-based web framework for visualization. Optimized the system for scalable data handling, enabling daily batch updates without downtime."
+        },
+        {
+          "name": "Patient Management Portal",
+          "technologies": ["Angular", "Micro-Frontend Architecture", "RxJs", "Redux"],
+          "description": "Developed and integrated a patient lookup micro-frontend within a scalable healthcare system. Built a real-time memory graph utility for visualizing allocation and timeline data, enhancing troubleshooting efficiency. Leveraged modern Angular features to ensure clean, maintainable code across multiple micro frontends, supporting seamless system integration."
+        },
+        {
+          "name": "Mau App Development",
+          "technologies": ["Xamarin", "Maui", "C#"],
+          "description": "Modernized a mobile application by transitioning from Xamarin to Maui, addressing compatibility challenges and improving cross-platform performance. Enhanced layouts and formatting for consistent and optimized user experiences. Delivered critical bug fixes and new features to meet evolving project needs."
+        }
+      ]
+    }
+  ],
+  "personal_projects": [
+    {
+      "name": "Athena Developer AI Framework",
+      "technologies": ["Python", "NLP", "Hugging Faces", "React"],
+      "description": "Developed a secure, offline NLP solution for real-time QA, leveraging dual pipelines (extractive and generative) for precision and adaptability."
+    },
+    {
+      "name": "Kepler Prediction Engine",
+      "technologies": ["Python", "Graph Theory", "NLP", "AI Models"],
+      "description": "Built a graph-based system to map business relationships and rank high-value leads using AI-driven analytics."
+    },
+    {
+      "name": "Apollo Predictive Analytics System",
+      "technologies": ["Python", "scikit-learn", "Feature Engineering"],
+      "description": "Created a machine learning model with 90% accuracy for predicting contract success, integrating temporal and behavioral insights. Designed an automated experimentation framework to refine models overnight, accelerating system optimization."
+    },
+    {
+      "name": "PreReq Requirements Extraction System",
+      "technologies": ["Python", "NLP", "SpaCy", "POS Tagging", "Regex"],
+      "description": "Designed an NLP pipeline to extract actionable requirements from unstructured text, saving hours of manual effort in project management workflows. Normalized semantically similar verbs using verb mapping for consistent output and clarity. Integrated MoSCoW prioritization to automatically sort requirements by urgency and importance."
+    },
+    {
+      "name": "IBM Watson Slot Grammar Parser",
+      "technologies": ["Java"],
+      "description": "Independently studied IBM Watson’s Slot Grammar approach, implementing fundamental parsing techniques for sentence analysis. Delivered a proof-of-concept parser capable of analyzing basic sentence structures."
+    },
+    {
+      "name": "Gaussian Mixture Visualization Demo",
+      "technologies": ["JavaScript", "Java Servlets"],
+      "description": "Created an interactive tool to visualize Gaussian Mixture Models, showcasing unsupervised learning principles in real time. Enhanced user interactivity by dynamically shifting distributions during the model's learning process."
+    },
+    {
+      "name": "Nearest Neighbors OCR Demo",
+      "technologies": ["JavaScript", "jQuery", "MNIST Dataset"],
+      "description": "Developed a web-based OCR tool using the Nearest Neighbor algorithm, providing real-time classification of user-drawn digits. Integrated a canvas input for dynamic digit drawing."
+    },
+    {
+      "name": "Recommendation Engine for Reddit",
+      "technologies": ["Java", "Bayesian Models"],
+      "description": "Developed a Bayesian recommendation engine to predict user interest in Reddit links based on interaction metrics. Trained on user data to deliver personalized recommendations with high precision."
+    },
+    {
+      "name": "Zombie GPS Game",
+      "technologies": ["Java", "Android", "Google Maps API"],
+      "description": "Designed a real-time GPS-based mobile game where zombies dynamically track the player’s location. Integrated Google Maps with Android’s location framework for interactive zombie positioning and live updates."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Science in Computer Science",
+      "institution": "Stony Brook University",
+      "year": "2011",
+      "focus": ["AI", "Machine Learning", "Software Engineering Principles"]
+    }
+  ],
+  "certifications": [
+    "Certified Ethical Hacker (CEH)",
+    "Stanford Machine Learning Specialization (In Progress)"
+  ],
+  "skills": {
+    "languages": ["Python", "JavaScript", "C#", "C++", "TypeScript", "Java"],
+    "front_end": ["Angular", "React", "React Native", "Electron", "RxJS", "Redux"],
+    "back_end": ["Node.js", "ASP.NET MVC", "Express"],
+    "databases": ["MongoDB", "MySQL", "SQL Server"],
+    "ai_ml": ["scikit-learn", "TensorFlow", "PyTorch", "Hugging Faces"],
+    "cloud_iot": ["AWS (Lambda, API Gateway, S3, CloudWatch)", "IoT Development"],
+    "security": ["CEH", "Penetration Testing", "Reverse Engineering"]
+  }
+}

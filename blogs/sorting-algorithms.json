@@ -1,0 +1,13 @@
+{
+  "title": "Sorting Algorithms Explained",
+  "author": "Anthony DeLuca",
+  "date": "2024-12-27",
+  "summary": "A detailed exploration of sorting algorithms with interactive examples.",
+  "tags": ["Algorithms", "Sorting", "Computer Science"],
+  "sections": [
+    { "type": "title", "content": "Understanding Sorting Algorithms" },
+    { "type": "text", "content": "Sorting is fundamental to computer science. Here's how it works..." },
+    { "type": "list", "style": "unordered", "items": ["Bubble Sort", "Merge Sort", "Quick Sort"] },
+    { "type": "quote", "content": "Sorting algorithms are the backbone of efficient data processing." }
+  ]
+}
